@@ -1,5 +1,6 @@
 import Logo from '../assets/Logo.png'
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 import { FaGithub } from 'react-icons/fa'
 import { FaSquareXTwitter } from 'react-icons/fa6'
 
@@ -10,9 +11,10 @@ const Navbar = () => {
             <img src={Logo} alt="logo" className='mx-2 w-10' />
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-            <FaLinkedinIn />
+            <FaLinkedin />
             <FaGithub />
             <FaSquareXTwitter />
+            <MdEmail />
         </div>
     </nav>
   )
