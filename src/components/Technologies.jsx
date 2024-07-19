@@ -7,6 +7,7 @@ import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 const Technologies = () => {
   return (
@@ -41,6 +42,9 @@ const Technologies = () => {
             </div>
             <div className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <SiRedux className='text-7xl text-purple-600' />
+            </div>
+            <div className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <RiTailwindCssFill className='text-7xl text-cyan-300' />
             </div>
         </div>
     </div>
